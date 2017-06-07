@@ -4,6 +4,7 @@ var pubnub = new PubNub({
     subscribeKey: "sub-c-6a36b378-4adc-11e7-bf50-02ee2ddab7fe",
     publishKey: "pub-c-61959443-f381-4e17-aab2-f7c1470c1033",
     secretKey: "sec-c-NmQ5MWUzNmYtMmJiMC00YTUxLWJkNDItOThhMTJlZWQ2NTY1",
+    uuid: "gw-1",
     ssl: true
 })
 
