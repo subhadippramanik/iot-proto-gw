@@ -2,7 +2,7 @@
   "name": "gw-pubnub",
   "version": "0.0.1",
   "description": "",
-  "main": "gw-pubnub-client.js",
+  "main": "app.js",
   "dependencies": {    
     "pubnub": "latest"
   },

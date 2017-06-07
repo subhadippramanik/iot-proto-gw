@@ -7,26 +7,8 @@ var pubnub = new PubNub({
     ssl: true
 })
 
-pubnub.publish(
-    {
-        message: {
-            thing: 'light',
-            status: '1'
-        },
-        channel: 'ch1',
-        sendByPost: false, // true to send via post
-        storeInHistory: false, //override default storage options
-        meta: {
-            "gwId": "1"
-        } // publish extra meta with the request
-    },
-    function (status, response) {
-        // handle status, response
-    }
-);
-
 pubnub.subscribe({
-    channels: ['ch1'],
+    channels: ['chnl-desired'],
     withPresence: true // also subscribe to presence instances.
 });
 
